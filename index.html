@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RockFusion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1 class="title">✊ RockFusion</h1>
+    <p class="subtitle">EPIC ROCK PAPER SCISSORS BATTLE</p>
+
+    <div class="scoreboard">
+      <div>YOU <span id="user-score">0</span></div>
+      <div>VS</div>
+      <div>AI <span id="ai-score">0</span></div>
+    </div>
+
+    <div class="choices">
+      <div>
+        <div class="hand-icon" id="user-choice">❔</div>
+        <p>Your Choice</p>
+      </div>
+      <div class="versus">⚡</div>
+      <div>
+        <div class="hand-icon" id="ai-choice">❔</div>
+        <p>AI Choice</p>
+      </div>
+    </div>
+
+    <div class="result" id="result">Make your move!</div>
+
+    <div class="buttons">
+      <button onclick="playGame('rock')">✊ ROCK</button>
+      <button onclick="playGame('paper')">✋ PAPER</button>
+      <button onclick="playGame('scissors')">✌️ SCISSORS</button>
+    </div>
+
+    <button class="reset-btn" onclick="resetGame()">🔁 Reset Game</button>
+
+    <div class="shortcuts">
+      <p>Keyboard Shortcuts:</p>
+      <p>R - Rock | P - Paper | S - Scissors | ESC - Reset</p>
+    </div>
+
+    <footer></footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

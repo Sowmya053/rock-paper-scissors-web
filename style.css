@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0221;
+  color: #ffffff;
+  text-align: center;
+}
+
+.game-container {
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.title {
+  color: #9b59b6;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  color: #bbb;
+  margin-bottom: 30px;
+}
+
+.scoreboard {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.hand-icon {
+  font-size: 3rem;
+  border: 2px solid #f39c12;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.versus {
+  font-size: 2rem;
+  color: #f1c40f;
+}
+
+.result {
+  font-size: 1.5rem;
+  margin: 20px;
+  font-weight: bold;
+  color: #f1c40f;
+}
+
+.buttons button {
+  font-size: 1rem;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #16a085;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.reset-btn:hover {
+  background-color: #c0392b;
+}
+
+.shortcuts {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.8rem;
+  color: #777;
+}
