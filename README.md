@@ -27,9 +27,6 @@ A simple Rock-Paper-Scissors game built using HTML, CSS, and JavaScript.
 - Instant result display
 - Random computer moves
 
-## 📍 Live Link
-
-Play the game here 👉 [https://Sowmya053.github.io/rock-paper-scissors-web](https://Sowmya053.github.io/rock-paper-scissors-web)
 
 ---
 
